@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://hacklabucm.github.io/HLU/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Hacklab UCM'
 theme = 'hugo-book'
