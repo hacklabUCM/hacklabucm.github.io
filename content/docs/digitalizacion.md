@@ -1,0 +1,64 @@
++++
+title = "Digitalización"
+draft = false
++++
+Todo proceso de fabricación digital parte de un archivo digital, como su propio nombre indica.
+
+## Fotogrametría
+
+*25 de octubre de 2023*
+
+La **fotogrametería** es una técnica que permite obtener un volumen digital tridimensional de un objetos físico, así como información sobre su color y textura. Para ello se utilizará una serie de fotografías tomadas alrededor de la pieza desde diferentes ángulos y alturas que permitan una visión lo más detallada y homogénea posible del objeto en si. Aunque esta técnica de digitalización es muy útil, debemos tener en cuenta que puede tener algunos límites, como las dificultades que puede tener el conseguir buenos resultados de objetos que sean especialmente brillantes, o que estén en movimiento. No obstante existen recursos para intentar eliminar dichos límites, como veremos más adelante.
+
+
+El material necesario para poder realizar el proceso es el siguiente: 
+1) **Cámara de fotos** como veremos a continuación, partir de una buena imagen será fundamental, por lo que a priori, es recomendable usara una buena cámara. Algunos teléfonos móviles disponen, además de la cámara, de sensores que pueden facilitar la toma de datos.
+2) Es recomendable usar un **trípode** para favorecer la nitidez de las imágenes.
+3) Es recomendable utilizar una **mesa rotatoria** ya que será más sencillo hacer girar la pieza y dejar fija la cámara, que no girar con la cámara alrededor del objeto. En este caso hemos utilizado una mesa automatizada que está sincronizada con los disparos de la cámara, de manera que hace un disparo, gira la mesa 15 grados, y realiza el siguiente disparo, hasta completar el giro completo de la pieza. Esto nos da una idea aproximada de que por cada giro completo (necesitaremos hacer girar la pieza desde diferentes alturas) haremos una media de 24 fotografías.
+4) También es recomendable trabajar en un set con la **iluminación** controlada, aunque como alternativa también podremos trabajar en exteriores.
+5) Será de mucha utilidad utilizar un **fondo neutro** antireflectante.
+5) Por último, necesitaremos un ordenador con **software** específico para hacer el procesado de las imágenes y obtener el volumen. 
+
+
+El flujo de trabajo debería ser el siguiente: 
+1) **Colocar la pieza** de manera estable en la mesa giratoria. Debemos poder fotografiarla totalmente, por lo que o bien podemos construir una peana específica, o bien podemos girar la pieza para conseguir realizar las fotos desde todos los ángulos. Es importante que la pieza no se mueva durante la toma de las fotos.
+2) Iluminarla correctamente. Una **iluminación** rasante ayudará a obtener una textura más detallada, mientras que una iluminación difusa ayudará a hacer una mejor captura del color.
+3) Realizar las **fotografías**, teniendo en cuenta que la calidad de las mismas es uno de los factores clave en el resultado final. Para ello, debemos tener enfocado todo el objeto, intentando tener la mayor profundidad de campo posible. Podemos utilizar una [calculadora de profundidad de campo](https://www.photopills.com/calculators/dof), teniendo en cuenta que cerrar el diafragma y utilizar una lente angular (el software que utilizaremos posteriormente corrige las deformaciones) siempre nos va a favorecer. También es importante utilizar el ISO más bajo posible para evitar el ruido. Supongamos que hacemos tres ciclos de fotografías (uno para la parte superior de la pieza, uno medio y uno inferior), cada ciclo basta con que sea de 20 a 40 fotografías, dependiendo de la complejidad de la pieza, intentando que entre ellas haya un solapamiento de un 60-70%. El solapamiento puede ser menor si en la base tenemos un dibujo de rejilla, que pude en el alineamiento posterior de las imágenes (podíamos bajar hasta un 30-40%). Mantendremos mismo punto de enfoque, diafragma y velocidad de obturación en todas las tomas, teniendo en cuenta que la calidad de las imágenes será más importante que la cantidad. Si la cámara lo permite, es mejor dispara en RAW o TIF antes que en JPG, ya que la compresión de este último formato hace que la calidad de las imágenes sea peor.
+4) Pasamos a la parte del procesado en el ordenador. El programa que se ha utilizado para esta demo es [Unreal Engine](https://www.unrealengine.com)//Reality Capture!. Importamos las fotografías y procedemos a alinearlas, para que se genere una nube de puntos. Una vez creada la nube, podemos restringir la zona que queremos que procese, dejando fuera artefactos, la peana, u otros elementos que no sean necesarios para el proyecto. Para que el programa trabaje de una manera ágil necesitaremos una tarjeta gráfica con capacidad suficiente. Una vez generada la primera malla, que puede tener unos 50 millones de polígonos, y pesar 2 GB, es recomendable guardar el archivo original y exportarlo como .OBJ para conservar tanto el volumen como la textura y el color. Posteriormente, volvemos a exportar otra malla, pero esta vez limitando el número de polígonos a 3 millones, con lo que conseguimos un peso de 300 MB, y procedemos a colorearlo y crear la textura, para guardarlo también en .OBJ. Existe una alternativa de software open source, [Meshroom](https://alicevision.org/#meshroom), pero el tiempo de alineado de las fotos puede ser sensiblemente superior que con Ureal Engine. [Agisoft](https://www.agisoft.com/) es un software de fotogrametería más enfocado a los espacios  que a los objetos.
+Los puntos 3 y 4 de este flujo pueden ser hechos directamente con un teléfono móvil, existen app específicas como [Polycam](https://poly.cam/), o [Heges](https://hege.sh/), pero esta última sólo funciona con iOS.
+Por último en [Blender](https://www.blender.org/) o cualquier programa de modelado podríamos eliminar los artefactos que se hayan generado  al generar la malla, y que no nos interese conservar.
+
+## Resolución de problemas
+
+Pros y contras de esta técnica
+
+
+## Modelado 3D
+
+La última técnica que veremos para crear un archivo digital que posteriormente nos servirá para fabricarla digitalmente es el modelado 3D. Esta técnica nos permite crear desde cero un volumen o una superficie para su posterior fabricación. Cabe resaltar que las técnicas mencionadas anteriormente no son estancas con respecto a esta, de hecho, tras una fotogrametería o un escaneado, será habitual importarlas a algún programa de modelado para su retoque antes de la fabricación. 
+Existen multitud de maneras de 
+
+
+3D Builder
+Software muy sencillo para editar, intuitivo, que arregla mayas. Muy básica para crear primitvas, que podemos modificar poniendo cotas. También podemos hacer 
+
+Optimo para salir de un apuro o pequeños retoques
+
+
+ZBrush
+Ideal para sculpting, aguanta muchos polígonos. Para piezas orgánicas con mucho detalle. Tiene una biblioteca de figuras básicas para no comenzar un modelado desde cero. Muy útil para hacer huecos. Permite trabajar por capas. Tiene historial. Permite hacer 360 
+
+
+
+
+Contras
+No es intuitivo, curva de aprendizaje compleja
+
+Instant meshes
+
+Maya
+Para videojuegos y animación, excelente para UVs. Para renderizar los trabajos esculpidos en Zbrush
+
+Blender
+Modelado 3D open source, 
+
