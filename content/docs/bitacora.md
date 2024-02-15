@@ -13,7 +13,7 @@ Prácticas de escaneado 3D y fotogrametería// Hoy hemos puesto en práctica lo 
 Escaneado 3D // En esta sesión hemos estado probando el escanner THX11. Gracias a Juanvi y Pablo por compartir!
 
 ## 31 octubre 2023
-![Lección anatomía](https://imgur.com/gallery/iIRYHhm)
+![Lección anatomía](https://i.imgur.com/DqpTEcZ.jpeg)
 Fotogrametría // Hoy sesión de fotogramtería en el aula de escultura. Gracias a Pablo por la organización y la explicación!
 
 ## 26 septimebre 2023
