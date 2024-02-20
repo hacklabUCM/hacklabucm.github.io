@@ -17,5 +17,5 @@ Escaneado 3D // En esta sesión hemos estado probando el escanner THX11. Gracias
 Fotogrametría // Hoy sesión de fotogramtería en el aula de escultura. Gracias a Pablo por la organización y explicación y a Fran por la foto!
 
 ## 26 septimebre 2023
-![Hello World](images/4D0A43B1.jpg)   
+![Hello World](http://www.ricardoespinosa.es/1733.jpg)   
 Hello World // Hoy comenzamos la actividad del grupo de innovación docente. Las diferentes maneras de abordar el flujo de trabajo, o las opciones que utilizamos a la hora de dipitalizar los objetos que fabricaremos posteriormente centran el debate. Gracias a Pilar del Puerto por la foto!
