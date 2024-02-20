@@ -1,6 +1,7 @@
 +++
 title = "Bitácora"
 draft = false
+weight = 1
 +++
 
 ## 6 febrero 2024
