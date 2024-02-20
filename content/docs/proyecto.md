@@ -12,7 +12,8 @@ Fomentar el uso de herramientas de fabricación digital (digitalización, impres
 Crear un espacio de diálogo y colaboración en proyectos de diferente tipología que surjan en torno al ámbito de la tecnología y la fabricación digital. 
 Generar material didáctico que pueda servir para que los docentes lo incorporen en los campus virtuales de las asignaturas que impartan.  
 ## Equipo
-El equipo del grupo de innovación docente **hacklab UCM** del curso 2023/24 está formado por estudiantes, miembros del PTGAS y del PDI de la Facultad de Bellas Artes de la UCM: 
+El equipo del grupo de innovación docente **hacklab UCM** del curso 2023/24 está formado por estudiantes, miembros del PTGAS y del PDI de la Facultad de Bellas Artes de la UCM:  
+  
 Antonio Montes De Miguel  
 [Bruno Ruiz](https://www.ucm.es/directorio/?id=35185)  
 [Dámaso Peinado](https://www.ucm.es/directorio?id=35631)  
@@ -26,3 +27,8 @@ Javier Gorostiza
 Rafael Parrilla Vallespin  
 [Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)  
 [Sergio Montoya Rasero](https://www.ucm.es/directorio?id=35259)  
+
+Han colaborado tambien:  
+
+[Pablo de Arriba](https://www.ucm.es/directorio?id=8570)  
+[Claudia Sánchez Orozco](https://www.ucm.es/directorio?id=31253)
