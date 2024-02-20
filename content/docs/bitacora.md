@@ -13,9 +13,9 @@ Prácticas de escaneado 3D y fotogrametería// Hoy hemos puesto en práctica lo 
 Escaneado 3D // En esta sesión hemos estado probando el escanner THX11. Gracias a Juanvi y Pablo por compartir!
 
 ## 31 octubre 2023
-![Lección anatomía](https://i.imgur.com/nG190dg.jpeg)
+![Lección anatomía]()
 Fotogrametría // Hoy sesión de fotogramtería en el aula de escultura. Gracias a Pablo por la organización y explicación y a Fran por la foto!
 
 ## 26 septimebre 2023
-![Hello World](https://github.com/hacklabUCM/hacklabucm.github.io/blob/master/content/images/4D0A43B1-1896-422B-9C5C-2160FC592FD0_1_105_c(1).jpg)   
+![Hello World](/content/images/4D0A43B1-1896-422B-9C5C-2160FC592FD0_1_105_c(1).jpg)   
 Hello World // Hoy comenzamos la actividad del grupo de innovación docente. Las diferentes maneras de abordar el flujo de trabajo, o las opciones que utilizamos a la hora de dipitalizar los objetos que fabricaremos posteriormente centran el debate. Gracias a Pilar del Puerto por la foto!
