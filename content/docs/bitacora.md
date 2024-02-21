@@ -4,8 +4,13 @@ draft = false
 weight = 4
 +++
 
+## 21 febrero 2024
+![Equipo trabajo](http://www.ricardoespinosa.es/ET112255.jpg)
+Sesión de planifiación // Una vez terminado el primer bloque de digitalización comenzamos a revisar propuestas y planificar el siguiente bloque: Impresión 3D. Gracias a Pepe por la foto!
+
 ## 6 febrero 2024
-Modelado 3D // Revisión y posibilidades de los diferentes tipos de software que estamos usando actualmente para modelar en 3D, la oferta es amplia: ZBrush, Maya, Blender, Fusion 360, Freecad, Openscad... Gracias a Sergio, Juan, Carlos, Rafa y Ricardo por sus demos!
+![3D](http://www.ricardoespinosa.es/P3D57.jpg)
+Modelado 3D // Revisión y posibilidades de los diferentes tipos de software que estamos usando actualmente para modelar en 3D, la oferta es amplia: ZBrush, Maya, Blender, Fusion 360, Freecad, Openscad... Gracias a Sergio, Juan, Carlos, Rafa y Ricardo por sus demos, y a Rafa por la foto!
 
 ## 12 diciembre 2023
 ![es la pera](http://www.ricardoespinosa.es/PER115209.jpg)
