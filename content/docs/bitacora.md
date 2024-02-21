@@ -5,11 +5,11 @@ weight = 4
 +++
 
 ## 6 febrero 2024
-Revisión y posibilidades de los diferentes tipos de software que estamos usando actualmente para modelar en 3D, la oferta es amplia: ZBrush, Maya, Blender, Fusion 360, Freecad, Openscad... Gracias a Sergio, Juan, Carlos, Rafa y Ricardo por sus demos!
+Modelado 3D // Revisión y posibilidades de los diferentes tipos de software que estamos usando actualmente para modelar en 3D, la oferta es amplia: ZBrush, Maya, Blender, Fusion 360, Freecad, Openscad... Gracias a Sergio, Juan, Carlos, Rafa y Ricardo por sus demos!
 
 ## 12 diciembre 2023
 ![es la pera](http://www.ricardoespinosa.es/PER115209.jpg)
-Prácticas de escaneado 3D y fotogrametería// Hoy hemos puesto en práctica lo visto anteriormente en las sesiones de fotogramtería y escaneado 3D. Gracias de nuevo a Juanvi y Pablo, a Ángel por preparar el aula y el software, y a Antonio por sus explicaciones sobre meshroom!
+Sesión práctica // Prácticas de escaneado 3D y fotogrametería// Hoy hemos puesto en práctica lo visto anteriormente en las sesiones de fotogramtería y escaneado 3D. Gracias de nuevo a Juanvi y Pablo, a Ángel por preparar el aula y el software, y a Antonio por sus explicaciones sobre meshroom!
 
 ## 15 noviembre 2023
 ![3d scan](http://www.ricardoespinosa.es/SCN111814.jpg)
