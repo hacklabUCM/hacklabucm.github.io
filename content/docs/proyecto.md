@@ -29,7 +29,6 @@ Rafael Parrilla Vallespin
 [Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)  
 [Sergio Montoya Rasero](https://www.ucm.es/directorio?id=35259)  
 
-Han colaborado tambien:  
-
+Han colaborado también:  
 [Pablo de Arriba](https://www.ucm.es/directorio?id=8570)  
 [Claudia Sánchez Orozco](https://www.ucm.es/directorio?id=31253)
