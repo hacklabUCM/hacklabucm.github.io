@@ -6,7 +6,7 @@ weight = 4
 
 ## 21 febrero 2024
 ![Equipo trabajo](http://www.ricardoespinosa.es/ET112255.jpg)
-Sesión de planifiación // Una vez terminado el primer bloque de digitalización comenzamos a revisar propuestas y planificar el siguiente bloque: Impresión 3D. Gracias a Pepe por la foto!
+Sesión de planificación // Una vez terminado el primer bloque de digitalización comenzamos a revisar propuestas y planificar el siguiente bloque: Impresión 3D. Gracias a Pepe por la foto!
 
 ## 6 febrero 2024
 ![3D](http://www.ricardoespinosa.es/3D57.jpg)
