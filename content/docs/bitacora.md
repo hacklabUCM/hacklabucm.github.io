@@ -8,10 +8,12 @@ weight = 4
 Revisión y posibilidades de los diferentes tipos de software que estamos usando actualmente para modelar en 3D, la oferta es amplia: ZBrush, Maya, Blender, Fusion 360, Freecad, Openscad... Gracias a Sergio, Juan, Carlos, Rafa y Ricardo por sus demos!
 
 ## 12 diciembre 2023
+![es la pera](http://www.ricardoespinosa.es/PER115209.jpg)
 Prácticas de escaneado 3D y fotogrametería// Hoy hemos puesto en práctica lo visto anteriormente en las sesiones de fotogramtería y escaneado 3D. Gracias de nuevo a Juanvi y Pablo, a Ángel por preparar el aula y el software, y a Antonio por sus explicaciones sobre meshroom!
 
 ## 15 noviembre 2023
-Escaneado 3D // En esta sesión hemos estado probando el escanner THX11. Gracias a Juanvi y Pablo por compartir!
+![3d scan](http://www.ricardoespinosa.es/SCN111814.jpg)
+Escaneado 3D // En esta sesión hemos estado probando el escanner Revopoint Range con base giratoria, que funciona especialmente bien para cuerpo entero. Gracias a Juanvi y Pablo por compartir!
 
 ## 31 octubre 2023
 ![Lección anatomía](http://www.ricardoespinosa.es/LAWA0001.jpg)
