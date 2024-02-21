@@ -3,7 +3,7 @@ title = "A cerca de"
 draft = false
 weight = 1
 +++
-
+## Hacklab UCM. Grupo de innovación docente para el fomento de las herramientas de fabricación digital
 
 ## Valores
 Los HackLabs han sido en los últimos 20 años un espacio donde aprender, compartir y mostrar proyectos relacionados con la tecnología, la ciencia y la electrónica a todas aquellas personas que tengan interés en este ámbito. A través de este proyecto de innovación docente se pretende crear un espacio HackLab en la Facultad de Bellas Artes de la UCM en el que profesores y profesoras de diferentes departamentos, alumnado de grado, máster o doctorado, y técnicos de laboratorio puedan crear una comunidad abierta en la que adquirir y difundir conocimientos relativos a dichas áreas.  
