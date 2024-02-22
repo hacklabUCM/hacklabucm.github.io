@@ -7,14 +7,7 @@ weight = 2
 
 ```mermaid
 flowchart LR
-    pasoUno["Crear un archivo digital con:
-    
-    Fotogrametería
-    Fotografía
-    Escaneado 2 y 3D
-    iA's generativas
-    Modelado 3D
-    ..."]
+    pasoUno["Crear un archivo digital con: Fotogrametería, Fotografía, Escaneado 2 y 3D, iA's generativas, Modelado 3D..."]
     pasoDos["`Crear un archivo GCODE`"]
     pasoTres["`Fabricar`"]
 
