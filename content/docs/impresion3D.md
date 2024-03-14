@@ -1,6 +1,6 @@
 +++
 title = "Impresión 3D"
-draft = true
+draft = false
 weight = 5
 +++
 ## Impesión 3D  
