@@ -11,14 +11,13 @@ La impresión 3D, también conocida como fabricación aditiva, ha emergido como 
    
 Como hemos visto en el flujo de trabajo de fabricación digital, una vez tenemos un archivo digital el paso siguiente es ajustarlo para poder fabricarlo, y para ello necesitamos darle una serie de parámetros y convertirlo en un formato que pueda entender la impresora. Básicamente lo que debemos hacer es pasar un .STL a .GCODE. En este [enlace](https://ucomplutense-my.sharepoint.com/:v:/g/personal/ricaresp_ucm_es/EQAFfG5AjQxJoD0yv1Glg5oB5L56j01oE0ZRnJroh3QiGQ) puedes ver un vídeo del proceso básico.   
 La checklist básica para imprimir desde Cura sería la siguiente:  
-En el menú superior:
+En el menú superior  
 1. **Impresora seleccionada** Será el primer paso, ya que de ello depende el volumen de impresión, la tempratura, velocidad de trabajo...  
 2. **Material y tamaño de boquilla** El estándar será PLA y boquilla de 0,4 mm.  
-
-En el menú lateral de la izquierda:
+En el menú lateral de la izquierda  
 3. **Tamaño de la pieza**  
 4. **Posición en el plato** El centro del plato de impresión es el lugar óptimo. Hay que girar la pieza para evitar que haya partes en voladizo.  
-A la derecha del menú superior
+A la derecha del menú superior  
 5. **Altura de la capa** Mayor altura de capa = menor calidad y menor tiempo de impresión.  
 6. **Relleno** Suele ser suficiente con un 10-20%.  
 7. **Soportes**  
