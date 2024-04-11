@@ -5,7 +5,7 @@ weight = 6
 +++
 
 ## 11 abril 2024
-![Equipo trabajo](http://www.ricardoespinosa.es/ET112255.jpg)
+![Equipo trabajo](http://www.ricardoespinosa.es/3DPRINT.jpg)
 Impresión 3D // En esta sesión hemos repasado cuales son los parámetros básicos de impresión.
 
 ## 21 febrero 2024
