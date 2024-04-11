@@ -4,6 +4,10 @@ draft = false
 weight = 6
 +++
 
+## 11 abril 2024
+![Equipo trabajo](http://www.ricardoespinosa.es/ET112255.jpg)
+Impresión 3D // En esta sesión hemos repasado cuales son los parámetros básicos de impresión.
+
 ## 21 febrero 2024
 ![Equipo trabajo](http://www.ricardoespinosa.es/ET112255.jpg)
 Sesión de planificación // Una vez terminado el primer bloque de digitalización comenzamos a revisar propuestas y planificar el siguiente bloque: Impresión 3D. Gracias a Pepe por la foto!
