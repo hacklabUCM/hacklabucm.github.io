@@ -10,11 +10,12 @@ En este proyecto vamos a partir de las fotos realizadas a un modelo e un cráneo
   
 ![Tira cráneo](http://www.ricardoespinosa.es/tira_craneo.jpg)  
   
-Las imágenes de las que partimos están en formato RAW para obtener la mejor resolución de partida, pero Meshroom no puede leer este tipo de archivo, por lo que hemos creado una acción en photoshop para pasar de 16 a 8 bits, y convertirlas a formato .TIF. En este enlace puedes descargar directamente las fotos ya convertidas.  
+Las imágenes de las que partimos están en formato RAW para obtener la mejor resolución de partida, pero Meshroom no puede leer este tipo de archivo, por lo que hemos creado una acción en photoshop para pasar de 16 a 8 bits, y convertirlas a formato .TIF.  
 Abrimos Meshroom e inciamos los isguientes pasos:  
 1. Importamos en Meshroom las fotos (File>Import Images).
 2. Guardamos el proyecto (File>Save)
-3. En el menú inferior (Graph Editor) hacemos zoom en la caja de la izquierda, y con el botón derecho del ratón sobre el título "CameraInit" clicamos Compute, y luego en la parte superior clicamos el botón START. Veremos como en las cajas de Graph Editor se van procesando los pasos, y la linea verde que inidca un procesamiento correcto va avanzando de una caja a la siguiente.  
+3. En el menú de la parte superior clicamos el botón START. Veremos como en las cajas de Graph Editor se van procesando los pasos, y la linea verde que inidca un procesamiento correcto va avanzando de una caja a la siguiente.  ![Cráneo importado](http://www.ricardoespinosa.es/craneo-importado.jpg) 
+4. 
 ## Modelado 3D
 #### Redondear esquinas con OpenScad
 **[Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)**  
