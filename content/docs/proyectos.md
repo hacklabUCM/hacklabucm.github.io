@@ -15,7 +15,11 @@ Abrimos Meshroom e inciamos los isguientes pasos:
 1. Importamos en Meshroom las fotos (File>Import Images).
 2. Guardamos el proyecto (File>Save)
 3. En el menú de la parte superior clicamos el botón START. Veremos como en las cajas de Graph Editor se van procesando los pasos, y la linea verde que inidca un procesamiento correcto va avanzando de una caja a la siguiente.  ![Cráneo importado](http://www.ricardoespinosa.es/craneo-importado.jpg) 
-4. 
+4. Buscamos la carpeta en la que hemos guardado el proyecto, y vemos como se ha creado dentro una con nombre 'MeshroomCache'. Dentro de ella, en la capeta 'Meshing' tenemos el .OBJ creado. Este archivo lo conservamos, pero tiene mucha resolución, por lo que para imprimirlo posteriormente vamos a reducir le densidad de la malla. 
+5. Inniciamos Blender e importamos el .OBJ que se ha creado en la carpeta MeshroomCache>Meshing.
+6. En el panel lateral derecho despues de seleccionar el cuerpo 3D, malla , etc un icono de llave inglesa nos deja activar modificadores. Escogemos "Decimate" o "decimar" depende del idioma que tenga.
+
+
 ## Modelado 3D
 #### Redondear esquinas con OpenScad
 **[Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)**  
