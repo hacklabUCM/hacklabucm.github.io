@@ -4,6 +4,9 @@ draft = false
 weight = 6
 +++
 
+## 30 mayo 2024
+Cierre del proyecto del curso 2024-25 // En esta última sesisón hemos trabajado con impresión 3D y hemos hecho un cierre del Grupo de Innovación, buen trabajo!.
+
 ## 11 abril 2024
 ![Equipo trabajo](http://www.ricardoespinosa.es/3DPRINT.jpg)
 Impresión 3D // En esta sesión hemos repasado cuales son los parámetros básicos de impresión.
