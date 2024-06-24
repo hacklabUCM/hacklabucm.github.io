@@ -61,5 +61,5 @@ FreeCAD es una herramienta de modelado 3D de código abierto que se centra en la
 ### OpenSCAD
 OpenSCAD es un software de modelado 3D basado en scripts que permite a los usuarios definir modelos 3D mediante un lenguaje de programación específico.
 
-**Contras**: Requiere conocimientos de programación para su uso, lo que puede ser una barrera significativa para los usuarios sin experiencia en codificación. Además, su enfoque en el modelado basado en scripts puede ser menos intuitivo para quienes prefieren una interfaz gráfica.
+**Contras**: Requiere conocimientos de programación para su uso, lo que puede ser una barrera significativa para los usuarios sin experiencia en programación. Además, su enfoque en el modelado basado en scripts puede ser menos intuitivo para quienes prefieren una interfaz gráfica.
 
