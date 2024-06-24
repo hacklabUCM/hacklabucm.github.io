@@ -29,33 +29,37 @@ Los puntos 3 y 4 de este flujo pueden ser hechos directamente con un teléfono m
 ### Pros y contras
 Como pros de este técnica podríamos destacar la versatilidad a la hora de adaptarse tanto objetos de pequeño formato como de gran formato. La facilidad de acceder a una cámara de fotos también podría ser tenida como una ventaja, ya que no requiere de un hardware costoso y específico como podría ser un escaner 3D. Como contras, se puede destacar que el procesamiento de grandes conjuntos de datos de imágenes puede ser intensivo en recursos computacionales y llevar tiempo. También que puede ser problemático el hacer fotogrameterias de objetos brillantes, aunque existen recursos como el cubrir la pieza con polvo de talco o similar 
 
-
 ## Modelado 3D
 
-La última técnica que veremos para crear un archivo digital que posteriormente nos servirá para fabricarla digitalmente es el modelado 3D. Esta técnica nos permite crear desde cero un volumen o una superficie para su posterior fabricación. Cabe resaltar que las técnicas mencionadas anteriormente no son estancas con respecto a esta, de hecho, tras una fotogrametería o un escaneado, será habitual importarlas a algún programa de modelado para su retoque antes de la fabricación. 
-Existen multitud de maneras de 
+La última técnica que abordaremos para crear un archivo digital destinado a la fabricación digital es el modelado 3D. Esta técnica nos permite generar desde cero un volumen o una superficie que luego será fabricada. Es importante destacar que las técnicas previamente mencionadas no son independientes de esta; de hecho, es común que, tras realizar una fotogrametría o un escaneado, se importen los resultados a un programa de modelado para su refinamiento antes de proceder con la fabricación.
 
+### 3D Builder
+3D Builder es un software muy sencillo e intuitivo para la edición de modelos 3D, especializado en la reparación de mallas. Aunque es bastante básico para la creación de formas primitivas, permite modificarlas estableciendo cotas. Este programa es óptimo para salir de apuros o realizar pequeños retoques.
 
-3D Builder
-Software muy sencillo para editar, intuitivo, que arregla mayas. Muy básica para crear primitvas, que podemos modificar poniendo cotas. También podemos hacer 
+**Contras**: Su funcionalidad es limitada para proyectos más complejos y no ofrece tantas herramientas avanzadas como otros programas de modelado 3D.
 
-Optimo para salir de un apuro o pequeños retoques
+### ZBrush
+ZBrush es ideal para el esculpido, permitiendo trabajar con modelos que contienen un gran número de polígonos, lo que lo hace perfecto para piezas orgánicas con mucho detalle. Ofrece una biblioteca de figuras básicas que facilita no comenzar el modelado desde cero. Es muy útil para crear huecos y permite trabajar por capas, así como contar con un historial de cambios. Además, permite la visualización en 360 grados.
 
+**Contras**: No es intuitivo y tiene una curva de aprendizaje compleja.
 
-ZBrush
-Ideal para sculpting, aguanta muchos polígonos. Para piezas orgánicas con mucho detalle. Tiene una biblioteca de figuras básicas para no comenzar un modelado desde cero. Muy útil para hacer huecos. Permite trabajar por capas. Tiene historial. Permite hacer 360 
+### Maya
+Maya es excelente para la creación de videojuegos y animación, destacándose en la gestión de UVs. Además, es muy eficaz para renderizar los trabajos esculpidos en ZBrush.
 
+**Contras**: Su interfaz puede ser complicada para los principiantes, y su costo es elevado, lo que puede ser una barrera para algunos usuarios.
 
+### Blender
+Blender es un software de modelado 3D de código abierto que ofrece una amplia gama de herramientas y capacidades para la creación y edición de modelos 3D.
 
+**Contras**: Aunque es muy potente y versátil, su interfaz puede resultar poco intuitiva para nuevos usuarios, y puede requerir una considerable inversión de tiempo para dominar todas sus funcionalidades.
 
-Contras
-No es intuitivo, curva de aprendizaje compleja
+### FreeCAD
+FreeCAD es una herramienta de modelado 3D de código abierto que se centra en la ingeniería y el diseño de productos. Es especialmente útil para proyectos de CAD paramétrico.
 
-Instant meshes
+**Contras**: La interfaz puede ser menos intuitiva y amigable en comparación con otros programas de modelado 3D, y algunas de sus funcionalidades avanzadas pueden ser difíciles de dominar sin una capacitación adecuada.
 
-Maya
-Para videojuegos y animación, excelente para UVs. Para renderizar los trabajos esculpidos en Zbrush
+### OpenSCAD
+OpenSCAD es un software de modelado 3D basado en scripts que permite a los usuarios definir modelos 3D mediante un lenguaje de programación específico.
 
-Blender
-Modelado 3D open source, 
+**Contras**: Requiere conocimientos de programación para su uso, lo que puede ser una barrera significativa para los usuarios sin experiencia en codificación. Además, su enfoque en el modelado basado en scripts puede ser menos intuitivo para quienes prefieren una interfaz gráfica.
 
