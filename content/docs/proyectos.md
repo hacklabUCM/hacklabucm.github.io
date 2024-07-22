@@ -132,4 +132,4 @@ translate([0,0,alturabase]){
     }
 }
 ~~~
-Como hemos modelado la pieza de manera paramétrica, ahora basta con modificar alguna variable para que se ajustte todo el modelo. Una vez tenemos la pieza con las medidas deseadas, basta con renderizar la pieza y descargar el .STL.  
+Como hemos modelado la pieza de manera paramétrica, ahora basta con modificar alguna variable para que se ajuste todo el modelo. Una vez tenemos la pieza con las medidas deseadas, basta con renderizar la pieza y descargar el .STL.  
