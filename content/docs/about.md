@@ -15,13 +15,13 @@ Los objetivos son:
 ## Equipo
 El equipo del grupo de innovación docente **hacklab UCM** del curso 2024/25 está formado por estudiantes, miembros del PTGAS y del PDI de la Facultad de Bellas Artes de la UCM:  
 [Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)  
-[Pablo De Arriba Del Amo](https://www.ucm.es/directorio?id=8570) 
-[Maria Del Puerto Collado Rueda](https://www.ucm.es/directorio?id=28021) 
+[Pablo De Arriba Del Amo](https://www.ucm.es/directorio?id=8570)  
+[Maria Del Puerto Collado Rueda](https://www.ucm.es/directorio?id=28021)  
 [Ángel De Andres Garcia](https://www.ucm.es/directorio?id=7250)  
 Javier De Gorostiza Carabaño  
 [Monica Florensa Tomasi](https://www.ucm.es/directorio?id=29033)  
-[Daniel Garcia Lopez](https://www.ucm.es/directorio?id=34676) 
-[Jose Enrique Mateo Leon](https://www.ucm.es/directorio?id=24471) 
+[Daniel Garcia Lopez](https://www.ucm.es/directorio?id=34676)  
+[Jose Enrique Mateo Leon](https://www.ucm.es/directorio?id=24471)  
 Antonio Montes De Miguel  
 [Sergio Montoya Rasero](https://www.ucm.es/directorio?id=35259)  
 Rafael Parrilla Vallespín  
@@ -31,23 +31,8 @@ Esther Rizo Casado
 Dana Salido Perez  
 [Marco Germanico Sanchez Godoy](https://www.ucm.es/directorio?id=35985)  
 Diego Viudes Collar  
-
-El curso 2023-24 el grupo de trabajo estuvo formado por:
-
-Antonio Montes De Miguel  
-[Bruno Ruiz](https://www.ucm.es/directorio/?id=35185)  
+  
+El curso 2023-24 también formaron parte del Grupo de Innovación docente:  
 [Dámaso Peinado](https://www.ucm.es/directorio?id=35631)  
-[Daniel Garcia Lopez](https://www.ucm.es/directorio?id=34676)  
-Javier Gorostiza  
-[Jose Enrique Mateo Leon](https://www.ucm.es/directorio?id=24471)  
 [Maria Fernandez Vazquez](https://www.ucm.es/directorio?id=29114)  
-[Monica Florensa Tomasi](https://www.ucm.es/directorio?id=29033)  
-[Pilar Del Puerto](https://www.ucm.es/directorio?id=34870)  
-[Puerto Collado Rueda](https://www.ucm.es/directorio?id=28021)  
-Rafael Parrilla Vallespin  
-[Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)  
-[Sergio Montoya Rasero](https://www.ucm.es/directorio?id=35259)  
-
-Han colaborado también:  
-[Pablo de Arriba](https://www.ucm.es/directorio?id=8570)  
-[Claudia Sánchez Orozco](https://www.ucm.es/directorio?id=31253)
+[Pilar Del Puerto](https://www.ucm.es/directorio?id=34870)
