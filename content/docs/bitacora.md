@@ -4,8 +4,12 @@ draft = false
 weight = 6
 +++
 
+## 1 octubre 2024
+![Equipo trabajo](http://www.ricardoespinosa.es/1_2024.png)
+Inicio del proyecto del curso 2024-25 con nuevas caras y nuevos proyectos para comenzar los encuentros de este curso.  
+
 ## 30 mayo 2024
-Cierre del proyecto del curso 2024-25 // En esta última sesión hemos trabajado con impresión 3D y hemos hecho un cierre del Grupo de Innovación, buen trabajo!.
+Cierre del proyecto del curso 2023-24 // En esta última sesión hemos trabajado con impresión 3D y hemos hecho un cierre del Grupo de Innovación, buen trabajo!.
 
 ## 11 abril 2024
 ![Equipo trabajo](http://www.ricardoespinosa.es/3DPRINT.jpg)
