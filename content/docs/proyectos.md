@@ -141,9 +141,11 @@ Como hemos modelado la pieza de manera paramétrica, ahora basta con modificar a
 **[Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)**  
 Para este proyecto vamos a ver paso a paso como crear un volumen 3D realizado con corte 2D utilizando [Slicer for Fusion 360](https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/3yg7zznS94MHNDG7KMV8Qg.html).  
 1. Lo primero que vamos a hacer es tomar nota del grosor del material que vamos a cortar. En este caso el contrachapado tiene un grosor de 3,7 mm.
+![Material](http://www.ricardoespinosa.es/calibre1.jpg)  
+
+2. Hacemos un cuadrado de 40 mm de lado y lo cortamos con la misma velocidad y potencia con la que posteriormente cortaremos la pieza. En este caso los parámetros que pondremos para nuestra máquina para cortar el contrachapado de este espesor son: velocidad 10 y potencia 25. A continuación, medimos el cuadrado cortado, y vemos que mide 39,7 mm, por lo que sabemos que el láser ha quitado 0,15 mm por cada lado (40-39,7=0,3 /2 = 0,15).  
+![Muestra](http://www.ricardoespinosa.es/calibre2.jpg)  
   
-2. Hacemos un cuadrado de 40 mm de lado y lo cortamos con la misma velocidad y potencia con la que posteriormente cortaremos la pieza. En este caso los parámetros que pondremos para nuestra máquina para cortar el contrachapado de este espesor son: velocidad 20 y potencia 10. A continuación, medimos el cuadrado cortado, y vemos que mide 39,9 mm, por lo que sabemos que el láser ha quitado 0,05 mm por cada lado.
-   
 3. Tomamos nota del tamaño de la plancha que vamos a cortar, en nuestro caso de 270x350 mm.
    
 4. Creamos un volumen en cualquier programa de modelado 3D, y exportamos el .STL.  
@@ -158,3 +160,5 @@ Para este proyecto vamos a ver paso a paso como crear un volumen 3D realizado co
 7. Ponemos un nombre al nuevo material e incluimos los siguientes datos: a) indicamos medidas en mm; b y c) el ancho y largo de la plancha que vamos a cortar; d) el espesor del material y e) la cantidad de material que hemos viso que se come el láser.
 ![Material](http://www.ricardoespinosa.es/material.jpg)
 
+8. Le damos a “DONE”, y nos aseguramos de que hemos elegido el material recién creado.
+![Material](http://www.ricardoespinosa.es/material2.jpg)
