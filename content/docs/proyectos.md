@@ -143,8 +143,8 @@ Para este proyecto vamos a ver paso a paso como crear un volumen 3D realizado co
 1. Lo primero que vamos a hacer es tomar nota del grosor del material que vamos a cortar. En este caso el contrachapado tiene un grosor de 3,7 mm.
 ![Material](http://www.ricardoespinosa.es/calibre1.jpg)  
 
-2. Hacemos un cuadrado de 40 mm de lado y lo cortamos con la misma velocidad y potencia con la que posteriormente cortaremos la pieza. En este caso los parámetros que pondremos para nuestra máquina para cortar el contrachapado de este espesor son: velocidad 10 y potencia 25. A continuación, medimos el cuadrado cortado, y vemos que mide 39,7 mm, por lo que sabemos que el láser ha quitado 0,15 mm por cada lado (40-39,7=0,3 /2 = 0,15).  
-![Muestra](http://www.ricardoespinosa.es/calibre2.jpg)  
+2. Hacemos un cuadrado de 40 mm de lado y lo cortamos con la misma velocidad y potencia con la que posteriormente cortaremos la pieza. En este caso los parámetros que pondremos para nuestra máquina para cortar el contrachapado de este espesor son: velocidad 10 y potencia 25. A continuación, medimos el cuadrado cortado, y vemos que mide 39,9 mm, por lo que sabemos que el láser ha quitado 0,05 mm por cada lado (40-39,9=0,1 /2 = 0,05).  
+![Muestra](http://www.ricardoespinosa.es/medidaOK.jpg)  
   
 3. Tomamos nota del tamaño de la plancha que vamos a cortar, en nuestro caso de 270x350 mm.
    
