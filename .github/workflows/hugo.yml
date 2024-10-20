@@ -73,3 +73,15 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+markup:
+  goldmark:
+    renderHooks:
+      link:
+        enableDefault: true
+
+markup:
+  goldmark:
+    renderHooks:
+      image:
+        enableDefault: true
