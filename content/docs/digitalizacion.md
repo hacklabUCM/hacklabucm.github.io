@@ -1,6 +1,6 @@
 +++
 title = "Digitalización"
-draft = false
+draft = true
 weight = 3
 +++
 Todo proceso de fabricación digital parte de un archivo digital, como su propio nombre indica.
