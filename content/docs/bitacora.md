@@ -1,6 +1,6 @@
 +++
 title = "Bitácora"
-draft = false
+draft = true
 weight = 6
 +++
 
