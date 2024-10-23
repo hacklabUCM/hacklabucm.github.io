@@ -1,5 +1,5 @@
 +++
-title = "Projects"
+title = "Proyectos"
 draft = false
 weight = 5
 +++
@@ -166,6 +166,6 @@ Para este proyecto vamos a ver paso a paso como crear un volumen 3D realizado co
 9. Comprobamos el tamaño del modelo, que las medidas estén en mm y que sean correctas.  
 ![Medidas](caso1.jpg)  
 10. Elegimos el sistema de construcción técnica que queremos usar y lo adaptamos a nuestra pieza.  
-![Sistema](http://www.ricardoespinosa.es/caso2.jpg)  
+![Sistema](caso2.jpg)  
 11. En “Get Plans” exportamos el EPS. Es importante descargarlo en el escritorio del ordenador para que el programa reconozca correctamente la ruta.
-![Export](http://www.ricardoespinosa.es/export.jpg)  
+![Export](export.jpg)  
