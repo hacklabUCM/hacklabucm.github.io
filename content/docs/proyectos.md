@@ -1,6 +1,6 @@
 +++
 title = "Proyectos"
-draft = false
+draft = true
 weight = 5
 +++
 ## Digitalización
