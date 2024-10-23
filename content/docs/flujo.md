@@ -1,6 +1,6 @@
 +++
 title = "Flujo de trabajo"
-draft = false
+draft = true
 weight = 2
 +++
 ## Flujo de trabajo en la fabricación digital
