@@ -4,6 +4,10 @@ draft = false
 weight = 6
 +++
 
+## Next!
+![next](TallerFablab01.jpg)
+Fablab * Hello World.  
+
 ## 1 octubre 2024
 ![Equipo trabajo](1_2024.png)
 Inicio del proyecto del curso 2024-25 con nuevas caras y nuevos proyectos para comenzar los encuentros de este curso.  
