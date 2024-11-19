@@ -13,7 +13,7 @@ Los objetivos son:
 - Crear un espacio de diálogo y colaboración en proyectos de diferente tipología que surjan en torno al ámbito de la tecnología y la fabricación digital.   
 - Generar material didáctico que pueda servir para que los docentes lo incorporen en los campus virtuales de las asignaturas que impartan.   
 ## Equipo
-El equipo del grupo de innovación docente **hacklab UCM** del curso 2024/25 está formado por estudiantes, miembros del PTGAS y del PDI de la Facultad de Bellas Artes de la UCM:  
+El equipo del grupo de innovación docente **hacklab UCM** del curso 2024-25 está formado por estudiantes, miembros del PTGAS y del PDI de la Facultad de Bellas Artes de la UCM:  
 [Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)  
 [Pablo De Arriba Del Amo](https://www.ucm.es/directorio?id=8570)  
 [Maria Del Puerto Collado Rueda](https://www.ucm.es/directorio?id=28021)  
@@ -35,4 +35,7 @@ Diego Viudes Collar
 El curso 2023-24 también formaron parte del Grupo de Innovación docente:  
 [Dámaso Peinado](https://www.ucm.es/directorio?id=35631)  
 [Maria Fernandez Vazquez](https://www.ucm.es/directorio?id=29114)  
-[Pilar Del Puerto](https://www.ucm.es/directorio?id=34870)
+[Pilar Del Puerto](https://www.ucm.es/directorio?id=34870)  
+
+## Actividades  
+Si quieres recibir información de las actividades promovidas por el **Hacklab UCM, grupo de innovación docente para el fomento de las herramientas de fabricación digital** completa el siguiente [formulario](https://forms.gle/Mox3tBbn2jVuAEh2A).
