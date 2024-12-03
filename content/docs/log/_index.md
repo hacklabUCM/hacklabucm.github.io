@@ -3,6 +3,9 @@ title = "Bitácora"
 draft = false
 weight = 6
 +++
+## 20 noviembre 2024
+![Resina](HW_resina.jpg)
+Primer taller del curso, ponemos en marcha la impresora de resina. Gracias Pablo por compartir conocimeinto, y a Rafa por la foto!
 
 ## Fablab * Hello World 
 ![next](TallerFablab01.jpg)  
