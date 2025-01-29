@@ -3,9 +3,13 @@ title = "Bitácora"
 draft = false
 weight = 6
 +++
+## 29 enero 2025
+![Resina](29enero2025.jpg)
+Planificando las actividades del primer semestre de 2025.  
+
 ## 20 noviembre 2024
 ![Resina](HW_resina.jpg)
-Primer taller del curso, ponemos en marcha la impresora de resina. Gracias Pablo por compartir conocimeinto, y a Rafa por la foto!
+Primer taller del curso, ponemos en marcha la impresora de resina. Gracias Pablo por compartir conocimeinto, y a Rafa por la foto!  
 
 ## Fablab * Hello World 
 ![next](TallerFablab01.jpg)  
