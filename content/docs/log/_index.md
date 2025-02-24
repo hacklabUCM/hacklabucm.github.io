@@ -3,6 +3,10 @@ title = "Bitácora"
 draft = false
 weight = 6
 +++
+
+## Fablab * FreeCAD
+![next](freecad.jpg)  
+
 ## 29 enero 2025
 ![Resina](29enero2025.jpg)
 Planificando las actividades del primer semestre de 2025.  
