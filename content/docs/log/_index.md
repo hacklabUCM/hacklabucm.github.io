@@ -3,6 +3,9 @@ title = "Bitácora"
 draft = false
 weight = 6
 +++
+## 25 febrero 2025
+![FreeCAD](tallerFreecad.jpg)
+Taller de Freecad, software de modelado CAD de código abierto. Gracias a tod+s los que habés pasado por el taller, a Javi y Ricardo por la presentación, a Juan por el móvil y a Rafa por la foto :-)  
 
 ## Fablab * FreeCAD
 ![next](freecad.jpg)  
