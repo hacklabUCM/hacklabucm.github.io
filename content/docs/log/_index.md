@@ -4,7 +4,7 @@ draft = false
 weight = 6
 +++
 
-## Fablab * FreeCAD
+## Fablab * Corte 2D
 ![next](FABLAB_2.gif)  
 
 ## 25 febrero 2025
