@@ -5,7 +5,7 @@ weight = 6
 +++
 
 ## Fablab * FreeCAD
-![next](FABLAB_2.PDF)  
+![next](FABLAB_2.gif)  
 
 ## 25 febrero 2025
 ![FreeCAD](tallerFreecad.jpg)
