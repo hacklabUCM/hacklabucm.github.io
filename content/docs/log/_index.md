@@ -3,10 +3,12 @@ title = "Bitácora"
 draft = false
 weight = 6
 +++
+## Fablab * Digitalización 3D
+![next](TallerDigitalizacion3D_Fablab.jpg)  
+
 ## 25 marzo 2025
 ![corte2D](tallerCorte2D.jpg)
 Taller de corte 2D con laser: sesión de acercamiento al manejo de máquinas láser partiendo de la creación y preparación de imágenes vectoriales. Gracias a tod+s los que habés pasado por el taller, a Daniel por la presentación y a Mónica y José Enrique por la organización.  
-
 ## Fablab * Corte 2D
 ![next](FABLAB_2.gif)  
 
