@@ -3,6 +3,13 @@ title = "Bitácora"
 draft = false
 weight = 6
 +++
+## 14 mayo 2025
+![procesado](reality.jpg)
+Taller de corte 2D con laser: sesión de acercamiento al manejo de máquinas láser partiendo de la creación y preparación de imágenes vectoriales. Gracias a tod+s los que habés pasado por el taller, a Daniel por la presentación y a Mónica y José Enrique por la organización.  
+## 13 mayo 2025
+![dron](dron.jpg)
+Taller de corte 2D con laser: sesión de acercamiento al manejo de máquinas láser partiendo de la creación y preparación de imágenes vectoriales. Gracias a tod+s los que habés pasado por el taller, a Daniel por la presentación y a Mónica y José Enrique por la organización.  
+
 ## Fablab * Digitalización 3D
 ![next](TallerDigitalizacion3D_Fablab.jpg)  
 
