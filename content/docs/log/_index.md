@@ -3,6 +3,9 @@ title = "Bitácora"
 draft = false
 weight = 6
 +++
+## Fablab * Impresión 3D con resina
+![next](taller-junio-2025.jpg) 
+
 ## 14 mayo 2025
 ![procesado](realty.jpg)
 Taller de digitalización día 2: hoy toca procesar las imágens para conseguir el volumen 3D de las tomas de la sesión 1. Rafa dixit: 40.000.000 millions verex count.  
