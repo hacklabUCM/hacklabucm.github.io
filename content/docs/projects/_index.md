@@ -168,4 +168,12 @@ Para este proyecto vamos a ver paso a paso como crear un volumen 3D realizado co
 10. Elegimos el sistema de construcción técnica que queremos usar y lo adaptamos a nuestra pieza.  
 ![Sistema](caso2.jpg)  
 11. En “Get Plans” exportamos el EPS. Es importante descargarlo en el escritorio del ordenador para que el programa reconozca correctamente la ruta.
-![Export](export.jpg)  
+![Export](export.jpg)
+
+#### Preparar una imegen para grabar con láser 
+**[Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)**  
+Para este proyecto vamos a ver paso a paso como prearar un archivo para grabar con la máquina láser.  
+
+Antes de preparar cualquier archivo para la cortadora láser, es fundamental entender qué tipo de trabajo queremos hacer. **Cortar** significa que el láser atraviesa completamente el material, separando piezas. **Grabar** (raster) implica quemar la superficie para generar una imagen o textura sin llegar a atravesarla. Por último, el **marcado** consiste en trazar líneas finas superficiales, normalmente más rápidas y menos profundas que un grabado raster. Distinguir correctamente entre estos tres procesos desde el inicio evita errores en la preparación del archivo y ahorra tiempo y material.
+![Corte Vs Marcado Vs Grabado](CorteMarcadoGrabado.png)  
+
