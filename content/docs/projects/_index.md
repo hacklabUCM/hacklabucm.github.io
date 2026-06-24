@@ -24,9 +24,9 @@ Abrimos Meshroom e inciamos los isguientes pasos:
 #### Exportar desde Blender una pieza con medidas exactas para impresión 3D
 **[Juan G. Leiva](https://www.ucm.es/directorio?id=36623) y [Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)**
 
-La exportación de modelos desde Blender hacia impresoras tridimensionales requiere atención especial a la precisión dimensional. Un error común consiste en desatender las unidades de medida durante el modelado, lo que resulta en piezas imprimidas con tamaños inesperados o incompatibles con el montaje planificado. Este procedimiento garantiza que la pieza exportada conserve las medidas exactas definidas en el proyecto de diseño.
+La exportación de modelos desde Blender hacia impresoras 3D requiere atención especial a la precisión dimensional. Un error común consiste en desatender las unidades de medida durante el modelado, lo que resulta en piezas impresas con tamaños inesperados. Este procedimiento garantiza que la pieza exportada conserve las medidas exactas definidas en el proyecto de diseño.
 
-El primer paso consiste en establecer claramente las dimensiones de la pieza dentro de Blender. En la vista de propiedades, accedemos a la pestaña SCENE (indicada con la flecha azul en la imagen), donde seleccionamos las unidades de trabajo que utilizaremos en milímetros, que es el estándar en la mayoría de impresoras tridimensionales. Esta declaración explícita de unidades previene inconsistencias durante la exportación.
+El primer paso consiste en establecer claramente las dimensiones de la pieza dentro de Blender. En la vista de propiedades, accedemos a la pestaña SCENE (indicada con la flecha azul en la imagen), donde seleccionamos las unidades de trabajo que utilizaremos, en este caso milímetros (flecha verde), que es el estándar en la mayoría de impresoras. Por últimmo, nos aseguramos de que tiene el tamaño deseado (flecha roja), y que la rotación está aplicada (control+A > Scale) (flecha amarilla).  
 
 ![Configuración de medidas y unidades en Blender](Screenshot_1.jpg)
 
