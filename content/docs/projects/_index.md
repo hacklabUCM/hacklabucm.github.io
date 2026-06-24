@@ -21,6 +21,23 @@ Abrimos Meshroom e inciamos los isguientes pasos:
 
 
 ## Modelado 3D
+#### Exportar desde Blender una pieza con medidas exactas para impresión 3D
+**[Juan G. Leiva](https://www.ucm.es/directorio?id=36623) y [Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)**
+
+La exportación de modelos desde Blender hacia impresoras tridimensionales requiere atención especial a la precisión dimensional. Un error común consiste en desatender las unidades de medida durante el modelado, lo que resulta en piezas imprimidas con tamaños inesperados o incompatibles con el montaje planificado. Este procedimiento garantiza que la pieza exportada conserve las medidas exactas definidas en el proyecto de diseño.
+
+El primer paso consiste en establecer claramente las dimensiones de la pieza dentro de Blender. En la vista de propiedades, accedemos a la pestaña SCENE (indicada con la flecha azul en la imagen), donde seleccionamos las unidades de trabajo que utilizaremos en milímetros, que es el estándar en la mayoría de impresoras tridimensionales. Esta declaración explícita de unidades previene inconsistencias durante la exportación.
+
+![Configuración de medidas y unidades en Blender](Screenshot_1.jpg)
+
+Una vez completado el modelado y verificadas las dimensiones en Blender, procedemos a la exportación. Accedemos al menú File > Export > STL, que es el formato estándar reconocido por los software de laminado (slicing). En el cuadro de diálogo de exportación, el parámetro SCALE debe establecerse en 1000, independientemente de cuál haya sido la unidad de trabajo seleccionada previamente. Este valor asegura la conversión correcta entre las unidades internas de Blender y el milímetro, garantizando que las medidas se mantengan fielmente en el archivo exportado.
+
+![Configuración de parámetros en la exportación STL](Screenshot_2.jpg)
+
+Finalmente, abrimos el archivo STL resultante en Cura (o el software de laminado correspondiente a tu impresora). En esta etapa realizamos la verificación crítica: comprobamos que la pieza se haya importado con las dimensiones planificadas, comparándolas con los parámetros que establecimos inicialmente en Blender. Esta confirmación visual antes de enviar a impresión previene fallos costosos de material y tiempo de máquina.
+
+![Verificación de dimensiones en el software de impresión](Screenshot_3.jpg)
+
 #### Redondear esquinas con OpenScad
 **[Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)**  
 Vamos a modelar con [OpenScad](https://openscad.org/) una pieza que nos va a servir de base para apoyar unas vias de tren en una maqueta. Este ejercicio esta basado en la idea de como redondear piezas utilzando la función 'offset' que se explica en este [fantástico tutorial](https://learn.cadhub.xyz/docs/definitive-beginners/your-openscad-journey). Comenzamos abriendo un nuevo archivo en OpenSacad y guardándolo en la carpeta correspondiente. Nos va  aresultar muy útil hacer un boceto con todas la mediadas que necesitemos. Una vez tenemos las medidas, las incluimos como variables para poder utlizarlas en nuesto modelado:  
@@ -176,4 +193,5 @@ Para este proyecto vamos a ver paso a paso como prearar un archivo para grabar c
 
 Antes de preparar cualquier archivo para la cortadora láser, es fundamental entender qué tipo de trabajo queremos hacer. **Cortar** significa que el láser atraviesa completamente el material, separando piezas. **Grabar** (raster) implica quemar la superficie para generar una imagen o textura sin llegar a atravesarla. Por último, el **marcado** consiste en trazar líneas finas superficiales, normalmente más rápidas y menos profundas que un grabado raster. Distinguir correctamente entre estos tres procesos desde el inicio evita errores en la preparación del archivo y ahorra tiempo y material.
 ![Corte Vs Marcado Vs Grabado](CorteMarcadoGrabado.png)  
+
 
