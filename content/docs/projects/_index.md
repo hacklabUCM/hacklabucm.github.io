@@ -30,11 +30,11 @@ El primer paso consiste en establecer claramente las dimensiones de la pieza den
 
 ![Configuración de medidas y unidades en Blender](Screenshot_1.jpg)
 
-Una vez completado el modelado y verificadas las dimensiones en Blender, procedemos a la exportación. Accedemos al menú File > Export > STL, que es el formato estándar reconocido por los software de laminado (slicing). En el cuadro de diálogo de exportación, el parámetro SCALE debe establecerse en 1000, independientemente de cuál haya sido la unidad de trabajo seleccionada previamente. Este valor asegura la conversión correcta entre las unidades internas de Blender y el milímetro, garantizando que las medidas se mantengan fielmente en el archivo exportado.
+Una vez completado el modelado y verificadas las dimensiones en Blender, procedemos a la exportación. Accedemos al menú File > Export > STL. En el cuadro de diálogo de exportación, el parámetro SCALE debe establecerse en 1000, independientemente de cuál haya sido la unidad de trabajo seleccionada previamente. Este valor asegura la conversión correcta entre las unidades internas de Blender y el milímetro, garantizando que las medidas se mantengan fielmente en el archivo exportado.
 
 ![Configuración de parámetros en la exportación STL](Screenshot_2.jpg)
 
-Finalmente, abrimos el archivo STL resultante en Cura (o el software de laminado correspondiente a tu impresora). En esta etapa realizamos la verificación crítica: comprobamos que la pieza se haya importado con las dimensiones planificadas, comparándolas con los parámetros que establecimos inicialmente en Blender. Esta confirmación visual antes de enviar a impresión previene fallos costosos de material y tiempo de máquina.
+Finalmente, abrimos el archivo STL resultante en Cura (o el software de laminado correspondiente a tu impresora). En esta etapa realizamos la verificación crítica: comprobamos que la pieza se haya importado con las dimensiones planificadas, comparándolas con los parámetros que establecimos inicialmente en Blender.
 
 ![Verificación de dimensiones en el software de impresión](Screenshot_3.jpg)
 
