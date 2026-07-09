@@ -36,7 +36,31 @@ Una vez completado el modelado y verificadas las dimensiones en Blender, procede
 
 Finalmente, abrimos el archivo STL resultante en Cura (o el software de laminado correspondiente a tu impresora). En esta etapa realizamos la verificación crítica: comprobamos que la pieza se haya importado con las dimensiones planificadas, comparándolas con los parámetros que establecimos inicialmente en Blender.
 
-![Verificación de dimensiones en el software de impresión](Screenshot_3.jpg)
+![Verificación de dimensiones en el software de impresión](Screenshot_3.jpg)  
+#### Unir partes desconectadas en Blender para impresión 3D
+**[Juan G. Leiva](https://www.ucm.es/directorio?id=36623) y [Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)**
+
+En el modelado de figuras complejas, es habitual trabajar con componentes independientes. Un busto, por ejemplo, puede tener los ojos modelados como objetos separados, lo que facilita enormemente la animación y la gestión de la escena durante el proceso de diseño. Sin embargo, esta fragmentación del modelo presenta un problema crítico cuando se prepara para impresión tridimensional: el archivo resultante contiene múltiples objetos desconectados que la impresora no reconoce como una pieza única y cohesionada.
+
+La siguiente imagen ilustra esta problemática. En Chitubox se observan claramente dos estados de la misma pieza: a la izquierda, el modelo importado sin unir, donde se aprecian las diferentes partes desconectadas; a la derecha, la misma pieza tras aplicar la fusión de meshes en Blender, mostrando una geometría completamente integrada que la impresora reconoce como una sola entidad.
+
+![Comparativa de pieza sin unir versus pieza unida en Chitubox](chitu01.jpg)
+
+Para resolver esta cuestión en Blender, se requiere fusionar todos los objetos independientes en una única malla (mesh). El proceso es directo y no afecta a la geometría ni a la apariencia del modelo, simplemente consolida la estructura interna del archivo.
+
+El primer paso consiste en seleccionar todos los objetos que componen el modelo. En la vista 3D, utilizamos la combinación de teclas Ctrl+A para seleccionar todos los objetos, o mantenemos presionada la tecla Shift y hacemos clic en cada uno de los componentes que deseamos unir. Es fundamental que todos ellos queden resaltados antes de proceder a la siguiente fase.
+
+![Selección de todos los objetos en Blender](Screenshot_1.jpg)
+
+Una vez seleccionados todos los componentes, nos dirigimos al menú Object (Objeto) en la barra superior. Buscamos la opción Join Objects (Unir objetos), que se encuentra típicamente en el menú Object o mediante el atajo de teclado Ctrl+J. Esta operación fusiona instantáneamente todos los objetos seleccionados en una única malla, manteniendo toda la información geométrica original pero consolidando su estructura interna.
+
+![Acceso al menú de unión de objetos](Screenshot_2.jpg)
+
+Tras aplicar la operación, el modelo aparecerá en el outliner como un objeto singular. Podemos verificar el éxito de la operación seleccionando nuevamente el objeto y comprobando que en las propiedades de datos se indica que se trata de una única malla. El modelo está ahora preparado para ser exportado en formato STL y procesado correctamente por el software de impresión, que reconocerá la pieza como una entidad única y coherente.
+
+![Resultado final: pieza unida lista para exportación](Screenshot_3.jpg)
+
+Este procedimiento es fundamental antes de cualquier exportación para impresión 3D, especialmente en modelos que combinan múltiples componentes diseñados como objetos independientes durante el modelado.
 
 #### Redondear esquinas con OpenScad
 **[Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)**  
