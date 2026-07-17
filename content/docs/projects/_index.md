@@ -26,7 +26,7 @@ Abrimos Meshroom e inciamos los isguientes pasos:
 
 La exportación de modelos desde Blender hacia impresoras 3D requiere atención especial a la precisión dimensional. Un error común consiste en desatender las unidades de medida durante el modelado, lo que resulta en piezas impresas con tamaños inesperados. Este procedimiento garantiza que la pieza exportada conserve las medidas exactas definidas en el proyecto de diseño.
 
-El primer paso consiste en establecer claramente las dimensiones de la pieza dentro de Blender. En la vista de propiedades, accedemos a la pestaña SCENE (indicada con la flecha azul en la imagen), donde seleccionamos las unidades de trabajo que utilizaremos, en este caso milímetros (flecha verde), que es el estándar en la mayoría de impresoras. Por últimmo, nos aseguramos de que tiene el tamaño deseado (flecha roja), y que la rotación está aplicada (control+A > Scale) (flecha amarilla).  
+El primer paso consiste en establecer claramente las dimensiones de la pieza dentro de Blender. En la vista de propiedades, accedemos a la pestaña SCENE (indicada con la flecha azul en la imagen), donde seleccionamos las unidades de trabajo que utilizaremos, en este caso milímetros (flecha verde), que es el estándar en la mayoría de impresoras. Por últimmo, nos aseguramos de que tiene el tamaño deseado (flecha roja), y que la rotación está aplicada (control+A > Rotation) (flecha amarilla).  
 
 ![Configuración de medidas y unidades en Blender](Screenshot_1.jpg)
 
@@ -37,6 +37,8 @@ Una vez completado el modelado y verificadas las dimensiones en Blender, procede
 Finalmente, abrimos el archivo STL resultante en Cura (o el software de laminado correspondiente a tu impresora). En esta etapa realizamos la verificación crítica: comprobamos que la pieza se haya importado con las dimensiones planificadas, comparándolas con los parámetros que establecimos inicialmente en Blender.
 
 ![Verificación de dimensiones en el software de impresión](Screenshot_3.jpg)  
+
+    
 #### Unir partes desconectadas en Blender para impresión 3D
 **[Juan G. Leiva](https://www.ucm.es/directorio?id=36623) y [Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)**
 
@@ -48,19 +50,20 @@ La siguiente imagen ilustra esta problemática. En Chitubox se observan claramen
 
 Para resolver esta cuestión en Blender, se requiere fusionar todos los objetos independientes en una única malla (mesh). El proceso es directo y no afecta a la geometría ni a la apariencia del modelo, simplemente consolida la estructura interna del archivo.
 
-El primer paso consiste en seleccionar todos los objetos que componen el modelo. En la vista 3D, utilizamos la combinación de teclas Ctrl+A para seleccionar todos los objetos, o mantenemos presionada la tecla Shift y hacemos clic en cada uno de los componentes que deseamos unir. Es fundamental que todos ellos queden resaltados antes de proceder a la siguiente fase.
+El primer paso consiste en seleccionar todos los objetos que componen el modelo. En la vista 3D, utilizamos utilizamos el comando A para seleccionar todos los objetos, o mantenemos presionada la tecla Shift y hacemos clic en cada uno de los componentes que deseamos unir. Es fundamental que todos ellos queden resaltados antes de proceder a la siguiente fase.
 
 ![Selección de todos los objetos en Blender](Screenshot_1.jpg)
 
-Una vez seleccionados todos los componentes, nos dirigimos al menú Object (Objeto) en la barra superior. Buscamos la opción Join Objects (Unir objetos), que se encuentra típicamente en el menú Object o mediante el atajo de teclado Ctrl+J. Esta operación fusiona instantáneamente todos los objetos seleccionados en una única malla, manteniendo toda la información geométrica original pero consolidando su estructura interna.
+Una vez seleccionados todos los componentes, nos dirigimos al menú Object (Objeto) en la barra superior. Buscamos la opción Join (Unir objetos), que se encuentra típicamente en el menú Object o mediante el atajo de teclado Ctrl+J. Esta operación fusiona instantáneamente todos los objetos seleccionados en una única malla, manteniendo toda la información geométrica original pero consolidando su estructura interna.
 
 ![Acceso al menú de unión de objetos](Screenshot_2.jpg)
 
-Tras aplicar la operación, el modelo aparecerá en el outliner como un objeto singular. Podemos verificar el éxito de la operación seleccionando nuevamente el objeto y comprobando que en las propiedades de datos se indica que se trata de una única malla. El modelo está ahora preparado para ser exportado en formato STL y procesado correctamente por el software de impresión, que reconocerá la pieza como una entidad única y coherente.
+Aunque los objetos aparezcan agrupados como un único elemento en el Outliner, esto no significa que la malla esté soldada. En muchos casos, el objeto está compuesto por varias piezas independientes que simplemente se muestran como un solo objeto. Podemos comprobarlo seleccionando el objeto, accediendo al Edit Mode y situando el cursor sobre una de las piezas. Al pulsar la tecla L, Blender seleccionará únicamente la geometría conectada bajo el cursor. Si al repetir la operación se seleccionan distintas partes de forma independiente, significa que el objeto está formado por varias mallas no soldadas.  
+Para unificar todas las piezas en una única malla, es necesario cambiar a Sculpt Mode y realizar un Remesh desde el panel correspondiente, situado en la parte superior derecha del Viewport. El nivel de detalle del resultado dependerá del valor de Voxel Size: cuanto menor sea este valor, mayor será la resolución de la malla, con un mayor número de polígonos y un nivel de detalle más elevado. Por el contrario, valores más altos generarán una malla más ligera, aunque con una menor definición.  
 
 ![Resultado final: pieza unida lista para exportación](Screenshot_3.jpg)
 
-Este procedimiento es fundamental antes de cualquier exportación para impresión 3D, especialmente en modelos que combinan múltiples componentes diseñados como objetos independientes durante el modelado.  
+El modelo está ahora preparado para ser exportado en formato STL y procesado correctamente por el software de impresión, que reconocerá la pieza como una entidad única y coherente. Este procedimiento es fundamental antes de cualquier exportación para impresión 3D, especialmente en modelos que combinan múltiples componentes diseñados como objetos independientes durante el modelado.  
 
 #### Redondear esquinas con OpenScad
 **[Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)**  
