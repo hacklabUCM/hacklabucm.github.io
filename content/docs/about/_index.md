@@ -32,7 +32,7 @@ Esther Rizo Casado
 Dana Salido Perez  
 [Marco Germanico Sanchez Godoy](https://www.ucm.es/directorio?id=35985)  
 Diego Viudes Collar  
-[Juan González Leiva](https://www.ucm.es/directorio?id=36623)  
+[Juan González Leiva](https://produccioncientifica.ucm.es/investigadores/1290769/detalle)  
 Claudia Gallart Satie  
   
 El curso 2023-24 también formaron parte del Grupo de Innovación docente:  
