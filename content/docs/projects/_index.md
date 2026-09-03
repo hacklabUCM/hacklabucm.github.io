@@ -26,7 +26,7 @@ Abrimos Meshroom e inciamos los isguientes pasos:
 
 La exportación de modelos desde Blender hacia impresoras 3D requiere atención especial a la precisión dimensional. Un error común consiste en desatender las unidades de medida durante el modelado, lo que resulta en piezas impresas con tamaños inesperados. Este procedimiento garantiza que la pieza exportada conserve las medidas exactas definidas en el proyecto de diseño.
 
-El primer paso consiste en establecer claramente las dimensiones de la pieza dentro de Blender. En la vista de propiedades, accedemos a la pestaña SCENE (indicada con la flecha azul en la imagen), donde seleccionamos las unidades de trabajo que utilizaremos, en este caso milímetros (flecha verde), que es el estándar en la mayoría de impresoras. Por últimmo, nos aseguramos de que tiene el tamaño deseado (flecha roja), y que la rotación está aplicada (control+A > Rotation) (flecha amarilla).  
+El primer paso consiste en establecer claramente las dimensiones de la pieza dentro de Blender. En la vista de propiedades, accedemos a la pestaña SCENE (indicada con la flecha azul en la imagen), donde seleccionamos las unidades de trabajo que utilizaremos, en este caso milímetros (flecha verde), que es el estándar en la mayoría de impresoras. Por último, nos aseguramos de que tiene el tamaño deseado (flecha roja), y que la rotación está aplicada (control+A > Rotation) (flecha amarilla).  
 
 ![Configuración de medidas y unidades en Blender](Screenshot_1.jpg)
 
