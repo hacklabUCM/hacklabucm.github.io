@@ -182,37 +182,38 @@ Como hemos modelado la pieza de manera paramétrica, ahora basta con modificar a
 #### Crear un volumen a partir de corte 2D con Slicer for Fusion 360  
 **[Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)**  
 Para este proyecto vamos a ver paso a paso como crear un volumen 3D realizado con corte 2D utilizando [Slicer for Fusion 360](https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/3yg7zznS94MHNDG7KMV8Qg.html).  
-1. Lo primero que vamos a hacer es tomar nota del grosor del material que vamos a cortar. En este caso el contrachapado tiene un grosor de 3,7 mm.
+1. Lo primero que vamos a hacer es tomar nota del grosor del material que vamos a cortar. Es recomendable hacer varias mediciones en distintos puntos de la plancha, porque el grosor puede variar de una zona a otra, y quedarnos con el valor medio. En este caso el contrachapado tiene un grosor de 3,7 mm.
+  
 ![Material](calibre1.jpg)  
 
 2. Antes de cortar la pieza necesitamos saber cuánto material elimina el láser al cortar (lo que se conoce como *kerf*). Para ello utilizamos este [peine paramétrico de Cuttle](https://cuttle.xyz/@RE74R/Peine-UmpvI3HN2lZE). En la plantilla introducimos en `espesor` el grosor que hemos medido (3,7 mm) y en `profundidad` la longitud que queremos dar a las ranuras. El peine genera cinco ranuras que van disminuyendo de 0,05 en 0,05 mm a partir del espesor indicado (en nuestro caso 3,5; 3,55; 3,6; 3,65 y 3,7 mm), con su medida grabada encima. Completamos también los textos de nombre, velocidad y potencia, para que la muestra quede identificada con los parámetros con los que se ha cortado. Exportamos el archivo y lo cortamos con la misma velocidad y potencia con la que posteriormente cortaremos la pieza. En este caso los parámetros que pondremos para nuestra máquina para cortar el contrachapado de este espesor son: velocidad 10 y potencia 25. Los textos deben configurarse como grabado, y es importante no escalar el archivo en el programa de la máquina, porque la calibración dejaría de ser válida.  
-![Peine](peine1.jpg)  
+![Peine](cuttle.png)  
 
-3. Una vez cortado, probamos a introducir un trozo del mismo material en cada ranura y buscamos la que encaja con algo de presión, sin holgura. Como el láser ensancha las ranuras, el encaje correcto se producirá en una ranura más estrecha que el grosor real del material. En nuestro caso, el encaje correcto se produce en la ranura de 3,6 mm. Eso significa que el láser ha quitado 0,1 mm en total (3,7-3,6=0,1), es decir, 0,05 mm por cada lado (0,1 /2 = 0,05). Este es el dato que usaremos más adelante en Slicer.  
+4. Una vez cortado, probamos a introducir un trozo del mismo material en cada ranura y buscamos la que encaja con algo de presión, sin holgura. Como el láser ensancha las ranuras, el encaje correcto se producirá en una ranura más estrecha que el grosor real del material. En nuestro caso, el encaje correcto se produce en la ranura de 3,6 mm. Eso significa que el láser ha quitado 0,1 mm en total (3,7-3,6=0,1), es decir, 0,05 mm por cada lado (0,1 /2 = 0,05). Este es el dato que usaremos más adelante en Slicer.  
 ![Encaje](peine2.jpg)
   
-4. Tomamos nota del tamaño de la plancha que vamos a cortar, en nuestro caso de 270x350 mm.
+5. Tomamos nota del tamaño de la plancha que vamos a cortar, en nuestro caso de 270x350 mm.
    
-5. Creamos un volumen en cualquier programa de modelado 3D, y exportamos el .STL.  
+6. Creamos un volumen en cualquier programa de modelado 3D, y exportamos el .STL.  
 ![STL](stl.jpg)
   
-6. Abrimos Slicer e importamos el .STL. Si lo importa en una posición que no nos gusta, podemos girar la pieza antes de importarla en la ventana de selección de archivo: en la parte inferior elegimos el eje correcto.  
+7. Abrimos Slicer e importamos el .STL. Si lo importa en una posición que no nos gusta, podemos girar la pieza antes de importarla en la ventana de selección de archivo: en la parte inferior elegimos el eje correcto.  
 ![Importar](import.jpg)
 
-7. Clicamos en el icono del lápiz en el apartado “manufacturing settings”, y en la ventana emergente creamos un nuevo material clicando en el más que sale en la parte inferior izquierda.
+8. Clicamos en el icono del lápiz en el apartado “manufacturing settings”, y en la ventana emergente creamos un nuevo material clicando en el más que sale en la parte inferior izquierda.
 ![Settings](settings.jpg)
 
-8. Ponemos un nombre al nuevo material e incluimos los siguientes datos: a) indicamos medidas en mm; b y c) el ancho y largo de la plancha que vamos a cortar; d) el espesor del material y e) la cantidad de material por lado que hemos obtenido con el peine (en nuestro caso 0,05 mm).
+9. Ponemos un nombre al nuevo material e incluimos los siguientes datos: a) indicamos medidas en mm; b y c) el ancho y largo de la plancha que vamos a cortar; d) el espesor del material y e) la cantidad de material por lado que hemos obtenido con el peine (en nuestro caso 0,05 mm).
 ![Material](material.jpg)
 
-9. Le damos a “DONE”, y nos aseguramos de que hemos elegido el material recién creado.
+10. Le damos a “DONE”, y nos aseguramos de que hemos elegido el material recién creado.
 ![Material](material2.jpg)
 
-10. Comprobamos el tamaño del modelo, que las medidas estén en mm y que sean correctas.  
+11. Comprobamos el tamaño del modelo, que las medidas estén en mm y que sean correctas.  
 ![Medidas](caso1.jpg)  
-11. Elegimos el sistema de construcción técnica que queremos usar y lo adaptamos a nuestra pieza.  
+12. Elegimos el sistema de construcción técnica que queremos usar y lo adaptamos a nuestra pieza.  
 ![Sistema](caso2.jpg)  
-12. En “Get Plans” exportamos el EPS. Es importante descargarlo en el escritorio del ordenador para que el programa reconozca correctamente la ruta.
+13. En “Get Plans” exportamos el EPS. Es importante descargarlo en el escritorio del ordenador para que el programa reconozca correctamente la ruta.
 ![Export](export.jpg)
 
 #### Preparar una imegen para grabar con láser 
