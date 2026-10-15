@@ -186,41 +186,33 @@ Para este proyecto vamos a ver paso a paso como crear un volumen 3D realizado co
   
 ![Material](calibre1.jpg)  
 
-2. Antes de cortar la pieza necesitamos saber cuánto material elimina el láser al cortar (lo que se conoce como *kerf*). Para ello utilizamos este [peine paramétrico de Cuttle](https://cuttle.xyz/@RE74R/Peine-UmpvI3HN2lZE). En la plantilla introducimos en `espesor` el grosor que hemos medido (3,7 mm) y en `profundidad` la longitud que queremos dar a las ranuras. El peine genera cinco ranuras que van disminuyendo de 0,05 en 0,05 mm a partir del espesor indicado (en nuestro caso 3,5; 3,55; 3,6; 3,65 y 3,7 mm), con su medida grabada encima. Completamos también los textos de nombre, velocidad y potencia, para que la muestra quede identificada con los parámetros con los que se ha cortado. Exportamos el archivo y lo cortamos con la misma velocidad y potencia con la que posteriormente cortaremos la pieza. En este caso los parámetros que pondremos para nuestra máquina para cortar el contrachapado de este espesor son: velocidad 10 y potencia 25. Los textos deben configurarse como grabado, y es importante no escalar el archivo en el programa de la máquina, porque la calibración dejaría de ser válida.  
+2. Antes de cortar la pieza necesitamos saber cuánto material elimina el láser al cortar (lo que se conoce como *kerf*). Para ello utilizamos este [peine paramétrico de Cuttle](https://cuttle.xyz/@RE74R/Peine-UmpvI3HN2lZE). En la plantilla introducimos en `espesor` el grosor que hemos medido (3,7 mm) y en `profundidad` la longitud que queremos dar a las ranuras. El peine genera cinco ranuras que van disminuyendo de 0,05 en 0,05 mm a partir del espesor indicado (en nuestro caso 3,5; 3,55; 3,6; 3,65 y 3,7 mm), con su medida grabada encima. Exportamos el archivo y lo cortamos con la misma velocidad y potencia con la que posteriormente cortaremos la pieza. En este caso los parámetros que pondremos para nuestra máquina para cortar el contrachapado de este espesor son: velocidad 10 y potencia 25. Los textos deben configurarse como grabado, y es importante no escalar el archivo en el programa de la máquina, porque la calibración dejaría de ser válida.
+  
 ![Peine](cuttle.png)  
 
-4. Una vez cortado, probamos a introducir un trozo del mismo material en cada ranura y buscamos la que encaja con algo de presión, sin holgura. Como el láser ensancha las ranuras, el encaje correcto se producirá en una ranura más estrecha que el grosor real del material. En nuestro caso, el encaje correcto se produce en la ranura de 3,6 mm. Eso significa que el láser ha quitado 0,1 mm en total (3,7-3,6=0,1), es decir, 0,05 mm por cada lado (0,1 /2 = 0,05). Este es el dato que usaremos más adelante en Slicer.  
+3. Una vez cortado, probamos a introducir un trozo del mismo material en cada ranura y buscamos la que encaja con algo de presión, sin holgura. Como el láser ensancha las ranuras, el encaje correcto se producirá en una ranura más estrecha que el grosor real del material. En nuestro caso, el encaje correcto se produce en la ranura de 3,6 mm. Esta es la medida que usaremos como espesor del material en Slicer.  
 ![Encaje](peine2.jpg)
   
-5. Tomamos nota del tamaño de la plancha que vamos a cortar, en nuestro caso de 270x350 mm.
+4. Tomamos nota del tamaño de la plancha que vamos a cortar, en nuestro caso de 270x350 mm.
    
-6. Creamos un volumen en cualquier programa de modelado 3D, y exportamos el .STL.  
+5. Creamos un volumen en cualquier programa de modelado 3D, y exportamos el .STL.  
 ![STL](stl.jpg)
   
-7. Abrimos Slicer e importamos el .STL. Si lo importa en una posición que no nos gusta, podemos girar la pieza antes de importarla en la ventana de selección de archivo: en la parte inferior elegimos el eje correcto.  
+6. Abrimos Slicer e importamos el .STL. Si lo importa en una posición que no nos gusta, podemos girar la pieza antes de importarla en la ventana de selección de archivo: en la parte inferior elegimos el eje correcto.  
 ![Importar](import.jpg)
 
-8. Clicamos en el icono del lápiz en el apartado “manufacturing settings”, y en la ventana emergente creamos un nuevo material clicando en el más que sale en la parte inferior izquierda.
+7. Clicamos en el icono del lápiz en el apartado “manufacturing settings”, y en la ventana emergente creamos un nuevo material clicando en el más que sale en la parte inferior izquierda.
 ![Settings](settings.jpg)
 
-9. Ponemos un nombre al nuevo material e incluimos los siguientes datos: a) indicamos medidas en mm; b y c) el ancho y largo de la plancha que vamos a cortar; d) el espesor del material y e) la cantidad de material por lado que hemos obtenido con el peine (en nuestro caso 0,05 mm).
+8. Ponemos un nombre al nuevo material e incluimos los siguientes datos: a) indicamos medidas en mm; b y c) el ancho y largo de la plancha que vamos a cortar; d) como espesor del material, la medida de la ranura del peine que ha encajado correctamente (en nuestro caso 3,6 mm), y e) dejamos el offset a 0. De este modo, Slicer dibuja las ranuras con la medida que ya hemos comprobado que encaja, y no es necesario aplicar ninguna compensación adicional.
 ![Material](material.jpg)
 
-10. Le damos a “DONE”, y nos aseguramos de que hemos elegido el material recién creado.
+9. Le damos a “DONE”, y nos aseguramos de que hemos elegido el material recién creado.
 ![Material](material2.jpg)
 
-11. Comprobamos el tamaño del modelo, que las medidas estén en mm y que sean correctas.  
+10. Comprobamos el tamaño del modelo, que las medidas estén en mm y que sean correctas.  
 ![Medidas](caso1.jpg)  
-12. Elegimos el sistema de construcción técnica que queremos usar y lo adaptamos a nuestra pieza.  
+11. Elegimos el sistema de construcción técnica que queremos usar y lo adaptamos a nuestra pieza.  
 ![Sistema](caso2.jpg)  
-13. En “Get Plans” exportamos el EPS. Es importante descargarlo en el escritorio del ordenador para que el programa reconozca correctamente la ruta.
+12. En “Get Plans” exportamos el EPS. Es importante descargarlo en el escritorio del ordenador para que el programa reconozca correctamente la ruta.
 ![Export](export.jpg)
-
-#### Preparar una imegen para grabar con láser 
-**[Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)**  
-Para este proyecto vamos a ver paso a paso como prearar un archivo para grabar con la máquina láser.  
-
-Antes de preparar cualquier archivo para la cortadora láser, es fundamental entender qué tipo de trabajo queremos hacer. **Cortar** significa que el láser atraviesa completamente el material, separando piezas. **Grabar** (raster) implica quemar la superficie para generar una imagen o textura sin llegar a atravesarla. Por último, el **marcado** consiste en trazar líneas finas superficiales, normalmente más rápidas y menos profundas que un grabado raster. Distinguir correctamente entre estos tres procesos desde el inicio evita errores en la preparación del archivo y ahorra tiempo y material.
-![Corte Vs Marcado Vs Grabado](CorteMarcadoGrabado.png)  
-
-
