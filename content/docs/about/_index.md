@@ -13,15 +13,26 @@ Los objetivos son:
 - Fomentar el uso de herramientas de fabricación digital (digitalización, impresión 3D, corte láser y fresado) entre el profesorado y el PTGAS de la Facultad de Bellas Artes.  
 - Crear un espacio de diálogo y colaboración en proyectos de diferente tipología que surjan en torno al ámbito de la tecnología y la fabricación digital.   
 - Generar material didáctico que pueda servir para que los docentes lo incorporen en los campus virtuales de las asignaturas que impartan.   
-## Equipo
-El equipo del grupo de innovación docente **hacklab UCM** del curso 2024-25 está formado por estudiantes, miembros del PTGAS y del PDI de la Facultad de Bellas Artes de la UCM:  
+## Equipo  
+El equipo del grupo de innovación docente **hacklab UCM** del curso 2026-27 está formado por miembros del PDI de la Facultad de Bellas Artes de la UCM:  
+
+**Responsable**  
+[Daniel Garcia Lopez](https://www.ucm.es/directorio?id=34676)  
+
+**Participantes**  
+Óliver Alonso Fernández  
+Pedro Francisco Cañamero Martinez  
 [Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024)  
+[Monica Florensa Tomasi](https://www.ucm.es/directorio?id=29033)  
+Ricardo Iglesias Garcia  
+Manuel Martinez Onrubia  
+Lara Sanchez Coteron  
+
+El curso 2024-25 también formaron parte del Grupo de Innovación docente:  
 [Pablo De Arriba Del Amo](https://www.ucm.es/directorio?id=8570)  
 [Maria Del Puerto Collado Rueda](https://www.ucm.es/directorio?id=28021)  
 [Ángel De Andres Garcia](https://www.ucm.es/directorio?id=7250)  
 Javier De Gorostiza Carabaño  
-[Monica Florensa Tomasi](https://www.ucm.es/directorio?id=29033)  
-[Daniel Garcia Lopez](https://www.ucm.es/directorio?id=34676)  
 [Jose Enrique Mateo Leon](https://www.ucm.es/directorio?id=24471)  
 Antonio Montes De Miguel  
 [Sergio Montoya Rasero](https://www.ucm.es/directorio?id=35259)  
